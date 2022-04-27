@@ -21,3 +21,13 @@ The ob_crc64.cpp file calling the crc by following code:
 So after include the crc64.h header file, we can replace current crc function with the ISAL crc function as following code:
 
 ![image](https://user-images.githubusercontent.com/3771594/165455159-f084ff49-0c67-40ec-b7a6-a085b48d923d.png)
+
+### Testing code
+In order to compare the performance before and after changing code. The test code is as below:
+
+![image](https://user-images.githubusercontent.com/3771594/165455966-f370bd4f-1f92-490d-b160-6cb42a2bbf7d.png)
+
+The performance result is :
+
+![image](https://user-images.githubusercontent.com/3771594/165456574-ba685233-2e89-49f5-b9b5-b74f85d23c9a.png)
+
