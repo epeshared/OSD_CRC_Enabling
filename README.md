@@ -6,6 +6,14 @@ https://github.com/intel/isa-l/tree/master/crc
 
 ## Oceanbase CRC code
 
+### Why need to optimizate the Oceanbase CRC 
+
+![image](https://user-images.githubusercontent.com/3771594/165459875-e93957e5-a294-4c2a-8da6-f35e24aae796.png)
+
+This picture shows that Oceanbase will do CRC checksum while running Sysbench OLTP Read write senario. The time to trigger the CRC checksum is that Oceanbase compact the table. But one thing should be noticed is that the compation time is very short during Sysbench OLTP Read-Write test.
+
+### The code need to be changed
+
 https://github.com/oceanbase/oceanbase/blob/master/deps/oblib/src/lib/checksum/ob_crc64.cpp
 
 The Oceanbase download ISAL lib dynamicaly on deps/3rd/pkg/devdeps-isa-l-static-2.22.0-3.el8.x86_64.rpm. After unpackage the rpm. The ISAL lib is located on deps/3rd/usr/local/oceanbase/deps/devel/lib/libisal.a and the ISAL header file are install on deps/3rd/usr/local/oceanbase/deps/devel/include/isa-l/. All the header files are:
