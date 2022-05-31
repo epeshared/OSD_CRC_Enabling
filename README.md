@@ -39,3 +39,16 @@ The performance result is :
 
 ![image](https://user-images.githubusercontent.com/3771594/165456574-ba685233-2e89-49f5-b9b5-b74f85d23c9a.png)
 
+#Oceanbase Configuration
+
+### freeze_trigger_percentage
+
+freeze_trigger_percentage 用于设置触发全局冻结的租户使用内存阈值。
+
+属性	描述
+参数类型	整型
+默认值	50
+取值范围	[1, 99]
+是否重启 OBServer 生效	否
+如果开启了自动触发全局冻结，则当租户使用的内存达到该阈值时，会触发全局冻结。自动触发全局冻结开关的设置请参见 enable_global_freeze_trigger。
+
