@@ -42,6 +42,7 @@ The performance result is :
 #Oceanbase Configuration
 
 ### freeze_trigger_percentage
+https://open.oceanbase.com/docs/observer-cn/V3.1.1/10000000000013481
 
 freeze_trigger_percentage 用于设置触发全局冻结的租户使用内存阈值。
 
