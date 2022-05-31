@@ -41,6 +41,10 @@ The performance result is :
 
 #Oceanbase Configuration
 
+### Major compaction 
+
+http://www.foox.io/docs-cn/5.overview/6.storage-architecture/5.dump-and-merge/
+
 ### freeze_trigger_percentage
 https://open.oceanbase.com/docs/observer-cn/V3.1.1/10000000000013481
 
