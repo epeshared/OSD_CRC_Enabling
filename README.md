@@ -64,5 +64,7 @@ freeze_trigger_percentage 用于设置触发全局冻结的租户使用内存阈
 https://stackoverflow.com/questions/59152355/how-to-change-the-read-write-ratio-of-sysbench-oltp-read-write-script
 
 #### 40% write
-/home/zhr/sysbench-1.0.20/src/;sysbench ./lua/oltp_read_write.lua --delete_inserts=4  --mysql-host=127.0.0.1 --mysql-port=3881 --mysql-db=test --mysql-user=root@sysbench_tenan t --table_size=1000000 --tables=30 --threads=1000 --report-interval=5 --time=3600 run 
+/home/zhr/sysbench-1.0.20/src/;sysbench ./lua/oltp_read_write.lua --delete_inserts=4  --mysql-host=127.0.0.1 --mysql-port=3881 --mysql-db=test --mysql-user=root@sysbench_tenant --table_size=1000000 --tables=30 --threads=1000 --report-interval=5 --time=3600 run 
+
+/home/zhr/sysbench-1.0.20/src/;sysbench ./lua/oltp_read_write.lua --index_updates=8  --mysql-host=127.0.0.1 --mysql-port=3881 --mysql-db=test --mysql-user=root@sysbench_tenant --table_size=1000000 --tables=30 --threads=1000 --report-interval=5 --time=3600 run 
 
