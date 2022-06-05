@@ -59,3 +59,7 @@ freeze_trigger_percentage 用于设置触发全局冻结的租户使用内存阈
 是否重启 OBServer 生效	否
 如果开启了自动触发全局冻结，则当租户使用的内存达到该阈值时，会触发全局冻结。自动触发全局冻结开关的设置请参见 enable_global_freeze_trigger。
 
+### sysbench configuration
+
+https://stackoverflow.com/questions/59152355/how-to-change-the-read-write-ratio-of-sysbench-oltp-read-write-script
+
