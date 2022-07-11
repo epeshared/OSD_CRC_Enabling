@@ -1,5 +1,9 @@
 # OSD_CRC_Enabling
 
+## forked URL
+
+https://github.com/epeenabling/oceanbase_crc_opt/
+
 ## Intel ISA-L lib
 
 https://github.com/intel/isa-l/tree/master/crc
