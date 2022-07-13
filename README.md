@@ -56,6 +56,7 @@ http://www.foox.io/docs-cn/5.overview/6.storage-architecture/5.dump-and-merge/
 https://open.oceanbase.com/docs/observer-cn/V3.1.1/10000000000013481
 
 * alter system set freeze_trigger_percentage=75
+* ALTER SYSTEM MAJOR FREEZE;
 
 freeze_trigger_percentage 用于设置触发全局冻结的租户使用内存阈值。
 
