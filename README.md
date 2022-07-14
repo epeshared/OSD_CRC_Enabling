@@ -58,6 +58,8 @@ https://open.oceanbase.com/docs/observer-cn/V3.1.1/10000000000013481
 * alter system set freeze_trigger_percentage=75
 * ALTER SYSTEM MAJOR FREEZE;
 * SELECT * FROM __all_zone WHERE name LIKE '%merge%';
+* alter system set  default_compress_func = 'zstd_1.3.8';
+* alter system set  default_compress_func = 'qpl_0.1.18';
 
 freeze_trigger_percentage 用于设置触发全局冻结的租户使用内存阈值。
 
