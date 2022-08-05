@@ -7,6 +7,8 @@ https://github.com/epeenabling/oceanbase_crc_opt/
 ## PR
 https://github.com/oceanbase/oceanbase/pull/985
 
+https://github.com/oceanbase/oceanbase/pull/1031
+
 ## Intel ISA-L lib
 
 https://github.com/intel/isa-l/tree/master/crc
